@@ -1,0 +1,30 @@
+.search-container {
+    text-align: center;
+}
+
+input[type=text] {
+    margin: 20px auto;
+    display: block;
+    text-align: left;
+    height: 35px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+input[type=text]::placeholder {
+    text-align: center;
+}
+
+select {
+    margin: 20px auto;
+    display: block;
+    height: 35px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align-last: center;
+    text-align: center;
+    -ms-text-align-last: center;
+    -moz-text-align-last: center;
+}
